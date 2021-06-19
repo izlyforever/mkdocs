@@ -7,7 +7,7 @@ import sys
 os.system('git add .')
 
 #os.system('git remote rm origin')
-#os.system('git remote add origin git@github.com:izlyforever/sourceCode.git')
+#os.system('git remote add origin git@github.com:izlyforever/izlyforever.github.io.git')
 if len(sys.argv) < 2:
 	os.system('git commit -m "update"')
 else:
