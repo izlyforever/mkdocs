@@ -334,13 +334,20 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    折叠测试
+    代码测试
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
+    折叠测试
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
     参考
   </a>
   
@@ -355,21 +362,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     跳转测试
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     居中 + 颜色
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     添加视频
   </a>
   
@@ -381,7 +388,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     评论
   </a>
   
@@ -462,13 +469,20 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    折叠测试
+    代码测试
   </a>
   
 </li>
       
         <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
+    折叠测试
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
     参考
   </a>
   
@@ -483,21 +497,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     跳转测试
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     居中 + 颜色
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+  <a href="#_7" class="md-nav__link">
     添加视频
   </a>
   
@@ -509,7 +523,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_8" class="md-nav__link">
     评论
   </a>
   
@@ -554,7 +568,22 @@
 \sum_{i = 0}^n {n \choose i}  = 2^n
 </script>
 </p>
-<h2 id="_2">折叠测试<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_2">代码测试<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp"></span>
+<span class="cp">#define clog(x) std::clog &lt;&lt; (#x) &lt;&lt; &quot; is &quot; &lt;&lt; (x) &lt;&lt; &#39;\n&#39;;</span>
+<span class="k">using</span> <span class="n">LL</span> <span class="o">=</span> <span class="kt">long</span> <span class="kt">long</span><span class="p">;</span>
+<span class="cp">#include</span> <span class="cpf">&quot;../cpplib/math/mixed.hpp&quot;</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="c1">//freopen(&quot;in&quot;, &quot;r&quot;, stdin);</span>
+	<span class="n">std</span><span class="o">::</span><span class="n">cin</span><span class="p">.</span><span class="n">tie</span><span class="p">(</span><span class="k">nullptr</span><span class="p">)</span><span class="o">-&gt;</span><span class="n">sync_with_stdio</span><span class="p">(</span><span class="nb">false</span><span class="p">);</span>	
+	<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;&gt;</span> <span class="n">A</span><span class="p">{{</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">},</span> <span class="p">{</span><span class="mf">4.0</span><span class="p">,</span> <span class="mf">5.0</span><span class="p">,</span> <span class="mf">6.0</span><span class="p">},</span> <span class="p">{</span><span class="mf">7.0</span><span class="p">,</span> <span class="mf">8.0</span><span class="p">,</span> <span class="mf">9.0</span><span class="p">}};</span>
+	<span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">double</span><span class="o">&gt;</span> <span class="n">b</span><span class="p">{</span><span class="mf">1.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">};</span>
+	<span class="k">for</span> <span class="p">(</span><span class="k">auto</span> <span class="nl">x</span> <span class="p">:</span> <span class="n">Gauss</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">b</span><span class="p">))</span> <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">x</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
+	
+	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>
+<h2 id="_3">折叠测试<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <details class="note"><summary>代码折叠测试</summary><div class="highlight"><pre><span></span><code><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp"></span>
 <span class="cp">#define watch(x) std::cout &lt;&lt; (#x) &lt;&lt; &quot; is &quot; &lt;&lt; (x) &lt;&lt; std::endl</span>
 <span class="cp">#define print(x) std::cout &lt;&lt; (x) &lt;&lt; std::endl</span>
@@ -593,28 +622,28 @@ E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c
 </div>
 </div>
 </div>
-<h2 id="_3">参考<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h2 id="_4">参考<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="https://www.mkdocs.org/">Mkdocs</a></li>
 <li><a href="https://squidfunk.github.io/mkdocs-material/getting-started/">Material for MkDocs</a></li>
 <li><a href="https://facelessuser.github.io/pymdown-extensions/">PyMdown Extension Documentation</a></li>
 </ul>
 <h2 id="html">HTML 测试<a class="headerlink" href="#html" title="Permanent link">&para;</a></h2>
-<h3 id="_4">跳转测试<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<h3 id="_5">跳转测试<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>&lt;span id=&quot;jump&quot;&gt;跳转到的地方&lt;/span&gt;
 [<span class="nt">点击跳转</span>](<span class="na">#jump</span>)
 </code></pre></div>
 <p><a href="#jump">点击跳转</a></p>
-<h3 id="_5">居中 + 颜色<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<h3 id="_6">居中 + 颜色<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <p><center> 居中</center></p>
 <p><font face="黑体" size=10>我是大黑体字</font></p>
 <p><font color=red size=72>颜色</font></p>
-<h3 id="_6">添加视频<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<h3 id="_7">添加视频<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="p">&lt;</span><span class="nt">video</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;video&quot;</span> <span class="na">controls</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
 <span class="p">&lt;</span><span class="nt">source</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;mp4&quot;</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://izlyforever.com/*.mp4&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;video/mp4&quot;</span><span class="p">&gt;</span>
 <span class="p">&lt;/</span><span class="nt">video</span><span class="p">&gt;</span>
 </code></pre></div>
-<h2 id="_7">评论<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<h2 id="_8">评论<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
 <script src="https://utteranc.es/client.js"
         repo="izlyforever/izlyforever.github.io"
         issue-term="pathname"
