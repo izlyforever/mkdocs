@@ -25,6 +25,26 @@ $$
 \sum_{i = 0}^n {n \choose i}  = 2^n
 $$
 
+## 代码测试
+
+``` C++
+#include <bits/stdc++.h>
+#define clog(x) std::clog << (#x) << " is " << (x) << '\n';
+using LL = long long;
+#include "../cpplib/math/mixed.hpp"
+int main() {
+	//freopen("in", "r", stdin);
+	std::cin.tie(nullptr)->sync_with_stdio(false);	
+	std::vector<std::vector<double>> A{{1.0, 2.0, 3.0}, {4.0, 5.0, 6.0}, {7.0, 8.0, 9.0}};
+	std::vector<double> b{1.0, 2.0, 3.0};
+	for (auto x : Gauss(A, b)) std::cout << x << '\n';
+	
+	return 0;
+}
+```
+
+
+
 ## 折叠测试
 
 ??? note "代码折叠测试"
@@ -56,7 +76,7 @@ $$
 		$$
 		E(\mathbf{v}, \mathbf{h}) = -\sum_{i,j}w_{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j
 		$$
-
+	
 	=== "分栏 2"
 		```tex
 		$$
