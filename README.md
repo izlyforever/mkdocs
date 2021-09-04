@@ -1,8 +1,6 @@
-## A place to memory love between zly and me
+## [MkDocs 官方拓展](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
 
-### [MkDocs 官方拓展](https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins)
-
-### 本站 Requirement
+## 本站 Requirement
 
 - `pip install mkdocs`
 - `pip install mkdocs-material`
